@@ -2,7 +2,7 @@
 Introduction
 The Railway Database Management System is a project designed to provide a user-friendly interface for managing railway bookings. The system includes functionalities for users to book and cancel tickets, and for administrators to manage the database effectively.
 
-System Specifications
+System Specifications<br />
 Software Requirements
 Programming language: HTML, PHP
 Operating system: Any OS (Recommended: Windows 8, Windows Vista, Windows XP)
