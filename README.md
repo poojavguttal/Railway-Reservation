@@ -1,87 +1,61 @@
 # Railway-Reservation
-Introduction
-The Railway Database Management System is a project designed to provide a user-friendly interface for managing railway bookings. The system includes functionalities for users to book and cancel tickets, and for administrators to manage the database effectively.
+Introduction<br />
+The Railway Database Management System is a project designed to provide a user-friendly interface for managing railway bookings. The system includes functionalities for users to book and cancel tickets, and for administrators to manage the database effectively.<br />
 
 System Specifications<br />
-Software Requirements
-Programming language: HTML, PHP
-Operating system: Any OS (Recommended: Windows 8, Windows Vista, Windows XP)
-Application required: Standalone desktop application & XAMPP
-Coding language: PHP
+Software Requirements<br />
+Programming language: HTML, PHP, SQL<br />
+Operating system: Any OS (Recommended: Windows 8, Windows Vista, Windows XP)<br />
+Application required: Standalone desktop application & XAMPP<br />
+Coding language: PHP<br />
 
-Hardware Requirements
-CPU: Pentium IV 2.4 GHz or above
-Memory (Primary): 512 MB, 1 GB or above
-Hard Disk: 40 GB, 80GB, 160GB or above
-Monitor: 15 VGA color
+Hardware Requirements<br />
+CPU: Pentium IV 2.4 GHz or above<br />
+Memory (Primary): 512 MB, 1 GB or above<br />
+Hard Disk: 40 GB, 80GB, 160GB or above<br />
+Monitor: 15 VGA color<br />
 
-Setup Instructions
-Installing XAMPP
-Download XAMPP from Apache Friends.
-Install XAMPP following the installation instructions for your operating system.
-Setting Up the Database
-Open XAMPP Control Panel and start Apache and MySQL.
-Open your web browser and navigate to http://localhost/phpmyadmin.
-Create a new database named railway_db.
-Import the provided demo.sql file into the railway_db database.
+Setup Instructions<br />
+Installing XAMPP<br />
+Download XAMPP from Apache Friends.<br />
+Install XAMPP following the installation instructions for your operating system.<br />
 
-Running the Application
-Place the project files in the htdocs directory of your XAMPP installation (usually located at C:\xampp\htdocs).
-Open your web browser and navigate to http://localhost/your_project_folder.
+Setting Up the Database<br />
+Open XAMPP Control Panel and start Apache and MySQL.<br />
+Open your web browser and navigate to http://localhost/phpmyadmin.<br />
+Create a new database named railway_db.<br />
+Import the provided demo.sql file into the railway_db database.<br />
 
-Project Structure
-The project consists of the following key files and directories:
+Running the Application<br />
+Place the project files in the htdocs directory of your XAMPP installation (usually located at C:\xampp\htdocs).<br />
+Open your web browser and navigate to http://localhost/your_project_folder.<br />
 
-adminadd.php
-adminbooking.php
-admindelete.php
-adminedit.php
-adminlogin.php
-adminlogout.php
-adminnavigation.php
-adminregistrations.php
-admintrains.php
-booking.php
-cancelticket.php
-display.php
-login.php
-logout.php
-navigate.php
-register.php
-ticket1.php
-demo.sql
-
-
-Features
-User registration and login
-Viewing available tickets
-Booking and canceling tickets
-Admin functionalities to manage bookings and user data
+Features<br />
+User registration and login<br />
+Viewing available tickets<br />
+Booking and canceling tickets<br />
+Admin functionalities to manage bookings and user data<br />
 
 Web Pages
-adminadd.php: Add new data to the system
-adminbooking.php: Manage bookings
-admindelete.php: Delete existing data
-adminedit.php: Edit existing data
-adminlogin.php: Admin login page
-adminlogout.php: Admin logout page
-adminnavigation.php: Admin navigation panel
-adminregistrations.php: Manage user registrations
-admintrains.php: Manage train details
-booking.php: User booking page
-cancelticket.php: Cancel ticket page
-display.php: Display data
-login.php: User login page
-logout.php: User logout page
-navigate.php: User navigation panel
-register.php: User registration page
-ticket1.php: Ticket details page
+adminadd.php: Add new data to the system<br />
+adminbooking.php: Manage bookings<br />
+admindelete.php: Delete existing data<br />
+adminedit.php: Edit existing data<br />
+adminlogin.php: Admin login page<br />
+adminlogout.php: Admin logout page<br />
+adminnavigation.php: Admin navigation panel<br />
+adminregistrations.php: Manage user registrations<br />
+admintrains.php: Manage train details<br />
+booking.php: User booking page<br />
+cancelticket.php: Cancel ticket page<br />
+display.php: Display data<br />
+login.php: User login page<br />
+logout.php: User logout page<br />
+navigate.php: User navigation panel<br />
+register.php: User registration page<br />
+ticket1.php: Ticket details page<br />
 
-Modules
-Users: Manage user data and login/logout functionalities.
-Ticket Database: Manage ticket data including booking and canceling tickets.
-Admin: Admin functionalities to manage the overall database.
-Book/Cancel tickets: Interface for booking and canceling tickets.
+
 
 Libraries and Frameworks
 HTML: For structuring the web pages.
